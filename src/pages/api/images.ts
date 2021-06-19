@@ -52,7 +52,7 @@ export default async function handler(
     const { after } = req.query;
 
     const queryOptions = {
-      size: 1,
+      size: 6,
       ...(after && { after: query.Ref(query.Collection('images'), after) }),
     };
 

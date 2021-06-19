@@ -28,7 +28,9 @@ export function ModalViewImage({
           <Image src={imgUrl} />
         </ModalBody>
         <ModalFooter paddingY="2" justifyContent="start" bgColor="gray.700">
-          <Link href={imgUrl}>Abrir original</Link>
+          <Link fontWeight="bold" href={imgUrl}>
+            Abrir original
+          </Link>
         </ModalFooter>
       </ModalContent>
     </Modal>
